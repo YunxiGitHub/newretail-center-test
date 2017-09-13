@@ -7,8 +7,4 @@ public class AccountQueryServiceImpl implements IAccountQueryService {
 	public String findAccountNameById(Long id) {
 		return "admin";
 	}
-
-	public String findAccountSexById(Long id) {
-		return "1";
-	}
 }
